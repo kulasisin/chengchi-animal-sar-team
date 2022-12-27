@@ -133,6 +133,10 @@ html {
 body {
   font-family: Microsoft JhengHeiArial, Helvetica, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -262,10 +266,12 @@ body {
   overflow: hidden;
   position: relative;
 }
+
 .banner .container {
   display: flex;
   justify-content: space-between;
 }
+
 .FURRURU_title {
   margin-top: 150px;
   font-family: "Inter", sans-serif;
@@ -413,7 +419,7 @@ section .wave.wave2 {
 }
 h2 {
   display: block;
-  background-color: #ff7e42;
+  background-color: #a9e37c;
   padding: 20px 25px;
   text-align: center;
   font-weight: 400;
@@ -450,7 +456,62 @@ h2 {
     margin-bottom: 50px;
   }
 }
+/* 預警地圖 */
+.warning-map {
+  display: flex;
+  justify-content: space-between;
+}
 
+.map {
+  margin-top: 100px;
+  width: 60%;
+  height: 800px;
+  background: url(../img/warning-map.png);
+  background-size: cover;
+}
+.map-text p {
+  font-size: 28px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.map-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.map-text a {
+  color: #fff;
+}
+.map-text h2 {
+  background-color: #b7e396a3;
+}
+.map-text h2:hover {
+  background-color: #a9e37c;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .warning-map {
+    flex-direction: column;
+  }
+  .map {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .map-text h2 {
+    font-size: 24px;
+    padding: 15px 15px;
+    margin-top: 30px;
+  }
+  .map-text p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .map-text {
+    margin-bottom: 20px;
+  }
+}
 /* 功能介紹 */
 
 .features {
@@ -474,7 +535,7 @@ h2 {
   font-size: 32px;
   line-height: 50px;
   text-align: center;
-  color: #fd891f;
+  color: #78b661;
 }
 .features p {
   font-weight: 400;
@@ -485,7 +546,7 @@ h2 {
 }
 
 .features span {
-  color: #ff8e3d;
+  color: #78b661;
 }
 @media (max-width: 576px) {
   .features {
@@ -580,6 +641,7 @@ h2 {
   font-weight: 400;
   font-size: 28px;
   line-height: 50px;
+  margin-bottom: 40px;
 }
 .plan_content {
   background-color: rgba(255, 255, 255, 30%);
@@ -619,12 +681,12 @@ h2 {
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.3em;
-  color: #ff7e42;
+  color: #78b661;
   width: 30%;
 }
 
 .plan_content span {
-  color: #fd891f;
+  color: #78b661;
 }
 .plan_content {
   width: 40%;
@@ -633,7 +695,7 @@ h2 {
   margin: 20px 0 30px 0;
   max-width: 507px;
   height: 1px;
-  background-color: #bd6942;
+  background-color: #454c44;
 }
 .safeplan .plan_content {
   max-width: 507px;
@@ -647,7 +709,7 @@ h2 {
   left: 0px;
   background: linear-gradient(
     318.75deg,
-    #ffca5f -0.13%,
+    #92f592 -0.13%,
     rgba(255, 255, 255, 0.00312519) 78.21%,
     rgba(217, 217, 217, 0) 78.22%
   );
