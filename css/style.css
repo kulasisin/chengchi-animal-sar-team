@@ -263,6 +263,7 @@ a {
     #a9e37c -6.91%,
     rgba(231, 250, 219, 0.277887) 65.77%
   );
+  /* background-color: #000000; */
   overflow: hidden;
   position: relative;
 }
@@ -359,7 +360,6 @@ a {
 }
 section .wave {
   position: absolute;
-
   bottom: 0px;
   left: 0;
   width: 100%;
@@ -371,6 +371,7 @@ section .wave {
 section .wave.wave0 {
   z-index: 700;
   bottom: -10px;
+  animation: animate 10s linear infinite;
 }
 
 @keyframes animate {
@@ -378,14 +379,14 @@ section .wave.wave0 {
     background-position-y: 0;
   }
   50% {
-    background-position-y: 10px;
+    background-position-y: 40px;
   }
   100% {
-    background-position-y: 0px;
+    background-position-y: 0;
   }
 }
 section .wave.wave1 {
-  animation: animate 12s linear infinite;
+  animation: animate 7s linear infinite;
   z-index: 999;
   opacity: 0.75;
   bottom: 10px;
@@ -393,7 +394,7 @@ section .wave.wave1 {
 }
 
 section .wave.wave2 {
-  animation: animate 12s linear infinite;
+  animation: animate 5s linear infinite;
   z-index: 998;
   opacity: 0.5;
   bottom: 16px;
