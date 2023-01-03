@@ -260,8 +260,8 @@ a {
   height: 700px;
   background: linear-gradient(
     180deg,
-    #a9e37c -6.91%,
-    rgba(231, 250, 219, 0.277887) 65.77%
+    #a9e37c 10%,
+    rgba(148, 221, 103, 0.278) 60%
   );
   /* background-color: #000000; */
   overflow: hidden;
@@ -319,6 +319,17 @@ a {
   box-sizing: border-box;
 }
 @media (max-width: 576px) {
+  .banner {
+    height: 700px;
+    background: linear-gradient(
+      180deg,
+      #a9e37c 10%,
+      rgba(148, 221, 103, 0.278) 100%
+    );
+    /* background-color: #000000; */
+    overflow: hidden;
+    position: relative;
+  }
   .banner .container {
     flex-direction: column;
     align-items: center;
