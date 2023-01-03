@@ -441,7 +441,7 @@ h2 {
 .tech p {
   font-size: 28px;
   line-height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
@@ -461,6 +461,13 @@ h2 {
 .warning-map {
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(
+    318.75deg,
+    #a9e37c -0.13%,
+    rgba(255, 255, 255, 0.00312519) 78.21%,
+    rgba(217, 217, 217, 0) 78.22%
+  );
+  padding: 40px;
 }
 
 .map {
@@ -482,14 +489,15 @@ h2 {
   justify-content: center;
 }
 .map-text a {
-  color: #fff;
+  color: #545252;
 }
 .map-text h2 {
-  background-color: #b7e396a3;
+  background-color: #fff;
 }
 .map-text h2:hover {
   background-color: #a9e37c;
   cursor: pointer;
+  color: #fff;
 }
 @media (max-width: 576px) {
   .warning-map {
@@ -710,7 +718,7 @@ h2 {
   left: 0px;
   background: linear-gradient(
     318.75deg,
-    #92f592 -0.13%,
+    #a9e37c -0.13%,
     rgba(255, 255, 255, 0.00312519) 78.21%,
     rgba(217, 217, 217, 0) 78.22%
   );
@@ -728,7 +736,7 @@ h2 {
   z-index: -9;
 }
 .features_2 .smiling_photo {
-  background: url(../img/smart_alert.jpg);
+  background: url(../img/column.jpg);
   background-size: cover;
   z-index: -9;
   position: absolute;
@@ -780,7 +788,7 @@ h2 {
 }
 
 .features_2 {
-  margin-top: 400px;
+  margin-top: 600px;
 }
 
 .features_3 {
@@ -791,7 +799,7 @@ h2 {
     width: 100%;
   }
   .plan_content span {
-    color: #fd891f;
+    color: #78b661;
   }
   .title_decord span {
     display: block;
