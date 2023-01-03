@@ -794,6 +794,54 @@ h2 {
 .features_3 {
   margin-top: 400px;
 }
+
+/* 團隊介紹 */
+.team-intro {
+  margin-top: 500px;
+}
+.team-intro h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  color: #92c97d;
+}
+.team-text p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+.team-intro {
+  text-align: center;
+}
+.team-logo {
+  margin-top: 50px;
+  width: 40%;
+  box-shadow: 0px 7px 75px 5px rgba(169, 227, 124, 0.5);
+  border-radius: 47px;
+  transition: all 1s;
+}
+
+.team-logo:hover {
+  box-shadow: 0px 7px 75px 40px rgba(169, 227, 124, 0.5);
+}
+.team-text {
+  padding: 30px;
+  margin-top: 30px;
+}
+.team-text .team-slogan {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  margin: 30px;
+  color: #78b661;
+}
+.team-photo {
+  width: 50%;
+}
+
 @media (max-width: 576px) {
   .content .container {
     width: 100%;
@@ -866,11 +914,24 @@ h2 {
     width: 100%;
     content: "";
   }
+  .smiling_photo_phone.features_2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/column.jpg);
+    background-size: cover;
+  }
   .safeplan img {
     display: inline;
     width: 70%;
   }
-
+  .smiling_photo_phone .features_2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/CheckBox.png);
+    background-size: cover;
+  }
   .features_2 {
     margin-top: 0px;
   }
@@ -896,6 +957,35 @@ h2 {
   .safeplan img {
     display: block;
     margin: 20px auto 0 auto;
+  }
+  .team-intro {
+    margin-top: 100px;
+  }
+  .team-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+  }
+  .team-intro {
+    text-align: center;
+  }
+  .team-logo {
+    width: 100%;
+  }
+  .team-text {
+    padding: 0px;
+  }
+  .team-text .team-slogan {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 30px;
+    color: #78b661;
+  }
+  .team-photo {
+    width: 100%;
   }
 }
 /* about.html */
