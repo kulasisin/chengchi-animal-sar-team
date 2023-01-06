@@ -1016,118 +1016,40 @@ h3 {
     font-weight: bolder;
   }
 }
-.caretaker-list {
-  margin: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
-.caretaker-list > li {
-  background-color: #fffaf6;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
-}
-.caretaker {
-  display: flex;
-  padding: 20px 10px;
-}
-.caretaker-pic {
-  max-width: 200px;
-  max-height: 200px;
-  margin-right: 25px;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.caretaker_title {
-  font-size: 24px;
-  font-weight: bolder;
-}
-
-.caretaker ul {
-  font-size: 20px;
-  margin: 20px 0;
-  line-height: 3;
-}
-.service img {
-  width: 40px;
-}
-.service p {
-  font-weight: bolder;
-}
-.service li {
-  display: flex;
-  align-items: center;
-}
-.review {
-  display: flex;
-  font-size: 24px;
-  font-weight: bolder;
-  color: #a58d77;
-}
-.review-number {
-  text-decoration: none;
-  color: #a58d77;
-}
-
-.tag ul {
-  display: flex;
-  margin-bottom: 30px;
-  padding: 0px 0px 10px 10px;
-}
-
-.tag ul li {
-  margin: 0 5px;
-}
-.tag p {
-  display: block;
-  background-color: #ff7e42;
-  padding: 10px 20px;
-  text-align: center;
+/* 數據故事專題 */
+.story_title {
+  margin-top: 150px;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
+  font-size: 100px;
+  color: #ffffff;
+  line-height: 95px;
+}
+.story {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.story_h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 186.52%;
+  color: #78b661;
+}
+.story_p {
+  font-weight: 500;
   font-size: 20px;
-  color: #fff;
-  border-radius: 50px;
-  margin: 10px auto;
-  line-height: 24px;
-  font-weight: 700;
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+  line-height: 186.52%;
+  /* or 37px */
+  text-align: left;
+  color: #000000;
 }
-
-/* pets page */
-.pet_content {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffad92;
-  padding: 9px 18px;
-}
-
-.petsection {
-  display: flex;
-  border-radius: 30px;
-  background-color: rgb(252, 236, 220);
-}
-.petsinfo-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 15px;
-}
-.petinfo {
-  line-height: 1.4;
-}
-.petsection img {
-  max-width: 200px;
+.story_img {
+  text-align: center;
   display: block;
-  border-radius: 30px 0 0 30px;
-  margin-right: 30px;
-}
-
-.petinfo {
-  font-size: 24px;
-}
-.pet-list > li {
-  margin: 18px 0;
+  margin: 0 auto;
+  margin-top: 40px;
 }
