@@ -1053,3 +1053,13 @@ h3 {
   margin: 0 auto;
   margin-top: 40px;
 }
+
+@media (max-width: 576px) {
+  .banner p:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .content img {
+    max-width: 300px;
+  }
+}
